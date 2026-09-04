@@ -5,8 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no,date=no,address=no,email=no,url=no">
 <meta name="x-apple-disable-message-reformatting">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
 <title>Приглашение на COMTRANS 2026</title>
 <style>
+  :root { color-scheme:light dark; supported-color-schemes:light dark; }
   body { margin:0; padding:0; background:#eef1f5; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
   table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
   td { border-collapse:collapse; }
@@ -14,41 +17,53 @@
   a { text-decoration:none; }
   .ExternalClass { width:100%; }
   .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height:100%; }
+  @media (prefers-color-scheme:dark){
+    .page-bg { background-color:#eef1f5 !important; }
+    .wrap, .logo-plate { background-color:#ffffff !important; }
+  }
   @media only screen and (max-width:620px){
     .wrap { width:100% !important; }
+    .pad-side { padding-left:18px !important; padding-right:18px !important; }
     .header-pad { padding:16px 18px !important; }
     .brand-logo { width:110px !important; height:auto !important; }
     .header-gap { width:8px !important; }
     .event-com, .event-trans { font-size:16px !important; }
     .event-year { font-size:16px !important; padding-left:4px !important; }
-    .stack { display:block !important; width:100% !important; }
-    .hero-copy { padding:28px 20px !important; height:auto !important; }
+    .hero-copy { display:block !important; width:100% !important; padding:28px 20px !important; height:auto !important; }
+    .hero-spacer { display:none !important; }
     .hero-title { font-size:28px !important; }
     .hero-lead { font-size:13px !important; }
-    .info-cell, .footer-contacts, .footer-qr, .footer-copy, .promo-label, .promo-code { display:block !important; width:auto !important; padding:12px 20px !important; }
-    .info-divider, .footer-divider { display:none !important; }
     .hero-grad { background-image:linear-gradient(to right,#063b79 0%,#063b79 62%,rgba(6,59,121,0.88) 100%) !important; }
-    .card { width:100% !important; display:block !important; margin-bottom:12px !important; }
-    .card-gap { display:none !important; }
+    .info-cell, .info-badge, .footer-contacts, .footer-qr, .footer-copy { display:block !important; width:auto !important; padding:10px 0 !important; }
+    .info-badge { text-align:left !important; }
+    .info-divider, .footer-divider { display:none !important; }
+    .head-rule { display:none !important; }
+    .head-label { display:block !important; width:auto !important; white-space:normal !important; }
+    .promo-label { display:block !important; width:auto !important; padding:16px 16px 8px !important; }
+    .promo-code { display:block !important; width:auto !important; padding:0 16px 16px !important; }
+    .promo-qr { display:block !important; width:auto !important; padding:0 16px 18px !important; text-align:center !important; }
+    .card { display:block !important; width:100% !important; }
+    .card-gap { display:block !important; width:100% !important; height:12px !important; }
   }
 </style>
 <!--[if mso]>
 <style>
   body, table, td, div, span, a { font-family:Arial,Helvetica,sans-serif !important; }
+  .hero-copy { background-color:#063b79 !important; }
 </style>
 <![endif]-->
 </head>
 <body style="margin:0;padding:0;background:#eef1f5;">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#eef1f5;">
-<tr><td align="center" style="padding:20px 10px;">
-<table role="presentation" class="wrap" width="600" cellpadding="0" cellspacing="0" style="background:#ffffff;font-family:Arial,Helvetica,sans-serif;max-width:600px;">
+<table role="presentation" class="page-bg" bgcolor="#eef1f5" width="100%" cellpadding="0" cellspacing="0" style="background:#eef1f5;">
+<tr><td class="page-bg" align="center" style="padding:20px 10px;">
+<table role="presentation" class="wrap" bgcolor="#ffffff" width="600" cellpadding="0" cellspacing="0" style="background:#ffffff;font-family:Arial,Helvetica,sans-serif;max-width:600px;">
 
   <!-- Header -->
   <tr>
     <td class="header-pad" style="padding:20px 28px 18px;">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
         <tr>
-          <td style="line-height:1.3;">
+          <td class="logo-plate" style="line-height:1.3;">
             <img class="brand-logo" src="https://aserzhuk.github.io/comtrans-email-2026/tonar-logo.png" alt="МЗ Тонар" width="210" height="35" style="width:210px;max-width:210px;height:35px;display:block;margin-bottom:4px;">
             <span style="font-size:9px;font-weight:normal;letter-spacing:1px;color:#0D2F66;font-family:Arial,Helvetica,sans-serif;">МАШИНОСТРОИТЕЛЬНЫЙ ЗАВОД</span>
           </td>
@@ -82,10 +97,10 @@
               Приглашение<br>на <span style="color:#6FCF3C;">COMTRANS</span> 2026
             </div>
             <div class="hero-lead" style="margin-top:15px;font-size:14px;line-height:1.5;color:#f1f6fd;font-family:Arial,Helvetica,sans-serif;">
-              МЗ Тонар приглашает вас посетить<br>наш стенд, на выставке коммерческого транспорта
+              МЗ «Тонар» приглашает вас посетить<br>наш стенд на выставке коммерческого транспорта.
             </div>
           </td>
-          <td width="230">&nbsp;</td>
+          <td class="hero-spacer" width="230">&nbsp;</td>
         </tr>
       </table>
       <!--[if gte mso 9]></v:textbox></v:rect><![endif]-->
@@ -108,49 +123,8 @@
           <td class="info-cell" style="padding-left:16px;font-size:13px;color:#0D2F66;font-family:Arial,Helvetica,sans-serif;">
             <img src="https://aserzhuk.github.io/comtrans-email-2026/icon-stand.png" alt="" width="36" height="36" style="width:36px;height:36px;display:inline-block;vertical-align:middle;margin-right:7px;"><b style="vertical-align:middle;">Стенд</b>
           </td>
-          <td align="right">
+          <td class="info-badge" align="right">
             <span style="background:#6FCF3C;color:#0D2F66;font-weight:bold;font-size:14px;padding:8px 14px;border-radius:4px;display:inline-block;font-family:Arial,Helvetica,sans-serif;">A2-102-1</span>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-
-  <!-- Products heading -->
-  <tr>
-    <td style="padding:26px 30px 16px;">
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-        <tr>
-          <td width="120" valign="middle" style="width:120px;font-size:0;line-height:0;"><div style="border-top:1px solid #7694bd;font-size:0;line-height:0;">&nbsp;</div></td>
-          <td width="300" align="center" style="width:300px;white-space:nowrap;padding:0;font-size:15px;font-weight:bold;color:#0D2F66;font-family:Arial,Helvetica,sans-serif;">На стенде будут представлены:</td>
-          <td width="120" valign="middle" style="width:120px;font-size:0;line-height:0;"><div style="border-top:1px solid #7694bd;font-size:0;line-height:0;">&nbsp;</div></td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-
-  <!-- Product cards -->
-  <tr>
-    <td style="padding:0 30px 20px;">
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-        <tr>
-          <td class="card" width="33%" valign="top" align="center" style="border:1px solid #d3dce8;border-radius:6px;padding:14px 8px 12px;">
-            <div style="font-size:12px;line-height:1.3;color:#0D2F66;font-family:Arial,Helvetica,sans-serif;">Шторный полуприцеп</div>
-            <div style="font-size:13px;line-height:1.3;font-weight:bold;color:#0D2F66;margin-bottom:10px;font-family:Arial,Helvetica,sans-serif;">ТОНАР-9888</div>
-            <img src="https://aserzhuk.github.io/comtrans-email-2026/trailer-curtain.png" width="160" alt="ТОНАР-9888" style="width:100%;max-width:160px;height:auto;margin:0 auto;">
-          </td>
-          <td class="card-gap" width="10"></td>
-          <td class="card" width="33%" valign="top" align="center" style="border:1px solid #d3dce8;border-radius:6px;padding:14px 8px 12px;">
-            <div style="font-size:12px;line-height:1.3;color:#0D2F66;font-family:Arial,Helvetica,sans-serif;">Рефрижераторный<br>полуприцеп</div>
-            <div style="font-size:13px;line-height:1.3;font-weight:bold;color:#0D2F66;margin-bottom:10px;font-family:Arial,Helvetica,sans-serif;">ТОНАР-97861</div>
-            <img src="https://aserzhuk.github.io/comtrans-email-2026/trailer-refrigerated.png" width="160" alt="ТОНАР-97861" style="width:100%;max-width:160px;height:auto;margin:0 auto;">
-          </td>
-          <td class="card-gap" width="10"></td>
-          <td class="card" width="33%" valign="top" align="center" style="border:2px solid #6FCF3C;border-radius:6px;padding:12px 7px 11px;">
-            <span style="background:#6FCF3C;color:#ffffff;font-size:10px;font-weight:bold;padding:4px 11px;border-radius:0 0 4px 4px;font-family:Arial,Helvetica,sans-serif;">НОВИНКА</span>
-            <div style="font-size:11px;line-height:1.25;color:#5bcf32;font-weight:bold;margin-top:8px;font-family:Arial,Helvetica,sans-serif;">В НОВОЙ КОМПЛЕКТАЦИИ</div>
-            <div style="font-size:13px;line-height:1.3;font-weight:bold;color:#0D2F66;margin:7px 0 9px;font-family:Arial,Helvetica,sans-serif;">Полуприцеп-контейнеровоз<br>ТОНАР-99894</div>
-            <img src="https://aserzhuk.github.io/comtrans-email-2026/trailer-container.png" width="160" alt="ТОНАР-99894" style="width:100%;max-width:160px;height:auto;margin:0 auto;">
           </td>
         </tr>
       </table>
@@ -159,11 +133,11 @@
 
   <!-- Special offer bar -->
   <tr>
-    <td style="padding:0 30px 16px;">
+    <td class="pad-side" style="padding:20px 30px 6px;">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#0D4A8D;border-radius:6px;">
         <tr>
           <td width="64" align="center" style="padding:14px 2px 14px 20px;">
-            <img src="https://aserzhuk.github.io/comtrans-email-2026/icon-offer.png" alt="" width="48" height="48" style="width:48px;height:48px;">
+            <img src="https://aserzhuk.github.io/comtrans-email-2026/icon-offer-red.png" alt="" width="48" height="48" style="width:48px;height:48px;">
           </td>
           <td style="padding:17px 20px 17px 12px;font-size:16px;line-height:1.25;color:#ffffff;font-family:Arial,Helvetica,sans-serif;">
             <b>Специальные ценовые предложения</b><br>
@@ -174,22 +148,70 @@
     </td>
   </tr>
 
+  <!-- Products heading -->
+  <tr>
+    <td class="pad-side" style="padding:26px 30px 16px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="head-rule" width="120" valign="middle" style="width:120px;font-size:0;line-height:0;"><div style="border-top:1px solid #7694bd;font-size:0;line-height:0;">&nbsp;</div></td>
+          <td class="head-label" width="300" align="center" style="width:300px;white-space:nowrap;padding:0;font-size:15px;font-weight:bold;color:#0D2F66;font-family:Arial,Helvetica,sans-serif;">На стенде будут представлены:</td>
+          <td class="head-rule" width="120" valign="middle" style="width:120px;font-size:0;line-height:0;"><div style="border-top:1px solid #7694bd;font-size:0;line-height:0;">&nbsp;</div></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- Product cards -->
+  <tr>
+    <td class="pad-side" style="padding:0 30px 20px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="card" width="33%" valign="top" align="center" style="border:1px solid #d3dce8;border-radius:6px;padding:14px 8px 12px;">
+            <div style="font-size:12px;line-height:1.3;color:#0D2F66;font-family:Arial,Helvetica,sans-serif;">Шторный полуприцеп</div>
+            <div style="font-size:13px;line-height:1.3;font-weight:bold;color:#0D2F66;margin-bottom:10px;font-family:Arial,Helvetica,sans-serif;">ТОНАР&nbsp;Т3-13</div>
+            <img src="https://aserzhuk.github.io/comtrans-email-2026/trailer-curtain.png" width="160" alt="ТОНАР Т3-13" style="width:100%;max-width:160px;height:auto;margin:0 auto;">
+            <div style="margin-top:10px;font-size:11px;line-height:1.35;font-weight:bold;color:#0D4A8D;font-family:Arial,Helvetica,sans-serif;">Лидер по итогам продаж<br>за последние 5 лет</div>
+          </td>
+          <td class="card-gap" width="10" style="font-size:0;line-height:0;">&nbsp;</td>
+          <td class="card" width="33%" valign="top" align="center" style="border:1px solid #d3dce8;border-radius:6px;padding:14px 8px 12px;">
+            <div style="font-size:12px;line-height:1.3;color:#0D2F66;font-family:Arial,Helvetica,sans-serif;">Рефрижераторный<br>полуприцеп</div>
+            <div style="font-size:13px;line-height:1.3;font-weight:bold;color:#0D2F66;margin-bottom:10px;font-family:Arial,Helvetica,sans-serif;">ТОНАР&nbsp;R3-13</div>
+            <img src="https://aserzhuk.github.io/comtrans-email-2026/trailer-refrigerated.png" width="160" alt="ТОНАР R3-13" style="width:100%;max-width:160px;height:auto;margin:0 auto;">
+            <div style="margin-top:10px;font-size:11px;line-height:1.35;font-weight:bold;color:#0D4A8D;font-family:Arial,Helvetica,sans-serif;">Лучшее ценовое предложение<br>на рынке РФ</div>
+          </td>
+          <td class="card-gap" width="10" style="font-size:0;line-height:0;">&nbsp;</td>
+          <td class="card" width="33%" valign="top" align="center" style="border:2px solid #6FCF3C;border-radius:6px;padding:12px 7px 11px;">
+            <span style="background:#6FCF3C;color:#ffffff;font-size:10px;font-weight:bold;padding:4px 11px;border-radius:0 0 4px 4px;font-family:Arial,Helvetica,sans-serif;">НОВИНКА</span>
+            <div style="font-size:11px;line-height:1.25;color:#5bcf32;font-weight:bold;margin-top:8px;font-family:Arial,Helvetica,sans-serif;">В НОВОЙ КОМПЛЕКТАЦИИ</div>
+            <div style="font-size:13px;line-height:1.3;font-weight:bold;color:#0D2F66;margin:7px 0 9px;font-family:Arial,Helvetica,sans-serif;">Полуприцеп-контейнеровоз<br>ТОНАР&nbsp;K4-U&nbsp;ДОПОГ</div>
+            <img src="https://aserzhuk.github.io/comtrans-email-2026/trailer-container.png" width="160" alt="ТОНАР K4-U ДОПОГ" style="width:100%;max-width:160px;height:auto;margin:0 auto;">
+            <div style="margin-top:10px;font-size:11px;line-height:1.35;font-weight:bold;color:#0D4A8D;font-family:Arial,Helvetica,sans-serif;">№1 на рынке РФ</div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
   <!-- Promo code -->
   <tr>
-    <td style="padding:0 30px 26px;">
+    <td class="pad-side" style="padding:0 30px 26px;">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e0e6ed;border-radius:6px;">
         <tr>
-          <td class="promo-label" style="padding:16px 20px;font-size:14px;line-height:1.35;font-weight:bold;color:#0D4A8D;font-family:Arial,Helvetica,sans-serif;" width="39%">
+          <td class="promo-label" style="padding:16px 14px 16px 20px;font-size:14px;line-height:1.35;font-weight:bold;color:#0D4A8D;font-family:Arial,Helvetica,sans-serif;" width="33%">
             Промокод для билета<br>на выставку
           </td>
           <td class="promo-code" style="padding:5px 8px 5px 0;">
             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px dashed #5f91d1;border-radius:5px;">
               <tr>
-                <td align="center" style="padding:14px 8px;font-size:24px;line-height:1;font-weight:bold;color:#80DD43;letter-spacing:1px;font-family:Arial,Helvetica,sans-serif;">
+                <td align="center" style="padding:14px 6px;font-size:20px;line-height:1;font-weight:bold;color:#80DD43;letter-spacing:0.5px;font-family:Arial,Helvetica,sans-serif;">
                   COMTRANS26420
                 </td>
               </tr>
             </table>
+          </td>
+          <td class="promo-qr" width="118" align="center" valign="middle" style="padding:12px 14px 12px 8px;">
+            <a href="https://reg.comtransexpo.ru/anketa.php?idExh=3" target="_blank"><img src="https://aserzhuk.github.io/comtrans-email-2026/qr-ticket.png" alt="QR-код для получения билета на выставку" width="86" height="86" style="width:86px;height:86px;margin:0 auto;"></a>
+            <div style="margin-top:6px;font-size:10px;line-height:1.3;font-weight:bold;color:#0D4A8D;font-family:Arial,Helvetica,sans-serif;">Сканируйте —<br>получите билет</div>
           </td>
         </tr>
       </table>
@@ -198,7 +220,7 @@
 
   <!-- Footer -->
   <tr>
-    <td style="background:#0D4A8D;padding:22px 30px;">
+    <td class="pad-side" style="background:#0D4A8D;padding:22px 30px;">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
         <tr>
           <td class="footer-contacts" valign="middle">
@@ -206,17 +228,23 @@
             <div style="font-size:13px;color:#ffffff;margin-bottom:7px;font-family:Arial,Helvetica,sans-serif;"><img src="https://aserzhuk.github.io/comtrans-email-2026/icon-phone.png" alt="" width="22" height="22" style="width:22px;height:22px;display:inline-block;vertical-align:middle;margin-right:8px;">8&nbsp;800&nbsp;444-22-49</div>
             <div style="font-size:13px;color:#ffffff;font-family:Arial,Helvetica,sans-serif;"><img src="https://aserzhuk.github.io/comtrans-email-2026/icon-globe.png" alt="" width="22" height="22" style="width:22px;height:22px;display:inline-block;vertical-align:middle;margin-right:8px;">tonar.info</div>
           </td>
-          <td class="footer-divider" width="1" style="background:#6e95c1;"></td>
-          <td class="footer-qr" width="100" align="center" style="padding-left:20px;">
-            <img src="https://aserzhuk.github.io/comtrans-email-2026/qr-code.png" alt="QR-код для перехода на сайт tonar.info" width="88" height="88" style="width:88px;height:88px;background:#ffffff;border:4px solid #ffffff;">
-          </td>
-          <td class="footer-copy" style="padding-left:14px;font-size:13px;line-height:1.35;color:#ffffff;font-family:Arial,Helvetica,sans-serif;">Сканируйте,<br>чтобы перейти на сайт</td>
         </tr>
       </table>
     </td>
   </tr>
 
 </table>
+
+<!-- Unsubscribe -->
+<table role="presentation" class="wrap" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;">
+  <tr>
+    <td class="pad-side" align="center" style="padding:16px 30px 4px;font-size:11px;line-height:1.5;color:#7d8794;font-family:Arial,Helvetica,sans-serif;">
+      Вы получили это письмо, потому что ваш адрес есть в базе контактов МЗ&nbsp;Тонар.<br>
+      <a href="{{unsubscribe_link}}" style="color:#7d8794;text-decoration:underline;font-family:Arial,Helvetica,sans-serif;">Отписаться</a>
+    </td>
+  </tr>
+</table>
+
 </td></tr>
 </table>
 </body>
